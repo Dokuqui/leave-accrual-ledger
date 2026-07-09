@@ -7,4 +7,4 @@ Get-Content .env | ForEach-Object {
     }
 }
 
-sbt clean run
+sbt run
