@@ -15,6 +15,8 @@ libraryDependencies ++= Seq(
   "org.tpolecat" %% "doobie-core" % doobieVersion,
   "org.tpolecat" %% "doobie-hikari" % doobieVersion,
   "com.mysql" % "mysql-connector-j" % "8.2.0",
+  "io.prometheus" % "simpleclient_hotspot" % "0.16.0",
+  "io.prometheus" % "simpleclient_common" % "0.16.0"
 )
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.2" % Test
 
